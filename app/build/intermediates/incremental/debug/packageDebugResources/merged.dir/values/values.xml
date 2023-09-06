@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="Bittersweet">#FF6666</color>
+    <color name="GreenYellow">#CCFF66</color>
+    <color name="Lightseagreen">#2EC4B6</color>
+    <color name="Tekhelet">#5D2E8C</color>
+    <color name="backgroundcolor">#F0E6EF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue_light">#B8BEDD</color>
+    <color name="buttons">#574573</color>
+    <color name="chamoisee">#A27953</color>
+    <color name="jasper">#CD533B</color>
+    <color name="khaki">#C7AC92</color>
+    <color name="persian_red">#B2442E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rose_bright">#F0A6CA</color>
+    <color name="silver">#C0BABC</color>
+    <color name="star_yellow">#FFDF00</color>
+    <color name="tea_green">#DCF2B0</color>
+    <color name="tea_green2">#C2EABD</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="toolbarcolor">#5664AD</color>
+    <color name="violet">#29143E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="NA">N/A</string>
+    <string name="add_review">Add review</string>
+    <string name="app_name">Bookency</string>
+    <string name="author_name">Author name(s)...</string>
+    <string name="book_description">Book description…</string>
+    <string name="book_name">Book name</string>
+    <string name="book_review">Review text…</string>
+    <string name="book_search">Search books…</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="confirm_pass">Confirm password</string>
+    <string name="continue_without_login">Continue without login</string>
+    <string name="create_account">Create new account</string>
+    <string name="default_web_client_id" translatable="false">215535106391-1m5jeff9hqsfhqcpp60asg8mp50aq0as.apps.googleusercontent.com</string>
+    <string name="delete_button">Button for deleting a specific user review</string>
+    <string name="edit_button">Button for editing a specific user review</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="edit_review_button">Edit review</string>
+    <string name="email">email@example.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">215535106391</string>
+    <string name="google_api_key" translatable="false">AIzaSyALgae2u5LPtvdNVdPoBepQ6THi8-oPMUE</string>
+    <string name="google_app_id" translatable="false">1:215535106391:android:75d34dcc75456a506ea612</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALgae2u5LPtvdNVdPoBepQ6THi8-oPMUE</string>
+    <string name="google_storage_bucket" translatable="false">bookency-626ee.appspot.com</string>
+    <string name="image">Image representation of an object</string>
+    <string name="login_button">Login</string>
+    <string name="login_message">Please login</string>
+    <string name="member_since">Member since</string>
+    <string name="name">John Doe</string>
+    <string name="name_placeholder">Name</string>
+    <string name="no_account">No account? <b>SignUp</b></string>
+    <string name="num_reviews">Number of reviews</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">bookency-626ee</string>
+    <string name="register_button">Register</string>
+    <string name="score">Score:</string>
+    <string name="update_profile">Update</string>
+    <string name="user_said">"User said:"</string>
+    <string name="welcome_message">Welcome to Bookency</string>
+    <style name="Theme.Bookency" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/Tekhelet</item>
+        <item name="colorPrimaryVariant">@color/toolbarcolor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/toolbarcolor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/violet</item>
+        <item name="statusBarBackground" ns1:targetApi="l">@color/violet</item>
+        
+    </style>
+    <style name="styleRoundedCornerImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+</resources>

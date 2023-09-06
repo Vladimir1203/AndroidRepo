@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/userTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_said"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userTv"
+            android:layout_marginTop="5dp"
+            android:text="@string/book_review"
+            android:textSize="14sp" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/descriptionTv"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/star_yellow"
+            android:foregroundTint="@color/star_yellow"
+            android:progressBackgroundTint="@color/silver"
+            android:progressTint="@color/star_yellow"
+            android:saveEnabled="true"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:soundEffectsEnabled="true"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

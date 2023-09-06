@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.UserDashboard">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/profileBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_person_white" />
+
+        <ImageView
+            android:id="@+id/iconV"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo" />
+
+
+        <ImageButton
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_logout" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_toolbar03"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="@string/book_name"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/authorTv"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTv"
+                android:layout_marginTop="5dp"
+                android:text="@string/author_name"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descriptionTv"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/authorTv"
+                android:layout_marginTop="5dp"
+                android:text="@string/book_description"
+                android:textSize="12sp" />
+
+
+            <ImageView
+                android:id="@+id/bookIv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_image" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/addReviewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_button01"
+            android:shadowRadius="10"
+            android:text="@string/add_review"
+            android:textColor="@color/white" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reviewsRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/book_review_row_detail" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

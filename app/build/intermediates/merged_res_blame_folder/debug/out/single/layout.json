@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_user_profile.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/book_row.xml",
+        "source": "com.example.bookency.app-main-30:/layout/book_row.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/book_review_row_detail.xml",
+        "source": "com.example.bookency.app-main-30:/layout/book_review_row_detail.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_profile_edit.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_profile_edit.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_register.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_user_dashboard.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_user_dashboard.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/user_reviews_row_detail.xml",
+        "source": "com.example.bookency.app-main-30:/layout/user_reviews_row_detail.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_book_reviews.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_book_reviews.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_review_edit.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_review_edit.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_login.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_add_review.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_add_review.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.bookency.app-mergeDebugResources-27:/layout/activity_splash.xml",
+        "source": "com.example.bookency.app-main-30:/layout/activity_splash.xml"
+    }
+]

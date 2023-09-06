@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215535106391",
+    "project_id": "bookency-626ee",
+    "storage_bucket": "bookency-626ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215535106391:android:75d34dcc75456a506ea612",
+        "android_client_info": {
+          "package_name": "com.example.bookency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215535106391-1m5jeff9hqsfhqcpp60asg8mp50aq0as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALgae2u5LPtvdNVdPoBepQ6THi8-oPMUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215535106391-1m5jeff9hqsfhqcpp60asg8mp50aq0as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

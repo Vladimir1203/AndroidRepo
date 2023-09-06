@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.LoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/bookTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxLength="40"
+            android:text="@string/book_name"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:padding="10dp">
+
+
+        <!--review input-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contentTil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="500"
+
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/contentEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_edittext01"
+                android:drawablePadding="10dp"
+                android:hint="@string/book_review"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:maxLength="500"
+                android:maxLines="10"
+                android:minLines="5"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentTil"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/star_yellow"
+            android:foregroundTint="@color/star_yellow"
+            android:progressBackgroundTint="@android:color/darker_gray"
+            android:progressTint="@color/star_yellow"
+            android:saveEnabled="true"
+            android:soundEffectsEnabled="true" />
+
+        <!--save button-->
+        <Button
+            android:id="@+id/addReviewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_button01"
+            android:shadowRadius="10"
+            android:text="@string/add_review"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

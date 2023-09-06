@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Bookency</string>
+    <string name="no_account">No account? <b>SignUp</b></string>
+    <string name="delete_button">Button for deleting a specific user review</string>
+    <string name="edit_button">Button for editing a specific user review</string>
+    <string name="image">Image representation of an object</string>
+    <string name="book_description">Book description…</string>
+    <string name="book_name">Book name</string>
+    <string name="user_said">"User said:"</string>
+    <string name="book_review">Review text…</string>
+    <string name="NA">N/A</string>
+    <string name="num_reviews">Number of reviews</string>
+    <string name="member_since">Member since</string>
+    <string name="email">email@example.com</string>
+    <string name="name">John Doe</string>
+    <string name="profile">Profile</string>
+    <string name="book_search">Search books…</string>
+    <string name="edit_review_button">Edit review</string>
+    <string name="register_button">Register</string>
+    <string name="confirm_pass">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="name_placeholder">Name</string>
+    <string name="create_account">Create new account</string>
+    <string name="update_profile">Update</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="continue_without_login">Continue without login</string>
+    <string name="login_button">Login</string>
+    <string name="welcome_message">Welcome to Bookency</string>
+    <string name="login_message">Please login</string>
+    <string name="author_name">Author name(s)...</string>
+    <string name="add_review">Add review</string>
+    <string name="score">Score:</string>
+</resources>
